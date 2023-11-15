@@ -15,7 +15,7 @@ header{
     align-items: center;/*Alineación al centro*/
     justify-content: space-between; /*Lista a la derecha*/
     padding: 1rem;
-    background-color:aqua;
+    background-color:mediumorchid;
 }
 
 .listaMenu{
@@ -26,7 +26,7 @@ header{
 
 .listaMenu li a{
     text-decoration: none;/*Quitar subrayado*/
-    color: black;/*Color del enlace y fuente*/
+    color:aliceblue;/*Color del enlace y fuente*/
     font-size: 20px;/*Tamaño de la letra*/
     margin-right: 12px;/*Margen*/
 }
@@ -58,7 +58,7 @@ header{
         top:0;
         right: 0;
         bottom: 0;
-        background-color: blueviolet;
+        background-color:darksalmon;
         padding: 2rem;
         box-shadow:0 0 0 100vmax rgba(0, 0, 0, 0.35);/*Unidad de porcentaje relativa, al menu principal le aplique esta sombra*/
     }
@@ -72,6 +72,6 @@ header{
         align-items: end;/*Final y a la derecha*/
     }
     .listaMenu li a {
-        color: black;
+        color: aliceblue;
     }    
 }
